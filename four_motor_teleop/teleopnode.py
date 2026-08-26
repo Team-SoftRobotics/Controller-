@@ -8,9 +8,15 @@ import tty
 
 from std_msgs.msg import String
 
-
+#This is for controlling using keyboard :
+#Currently this is just for testing if spinning the motors is controlling the movement , so it reads the keyboard presses in one
+# Terminal every 0.01secs and prepares a msg which dictates what motors out of the 4 should spin clockwise or anticlockwise according to the key
 
 #INFO 
+
+#What is to be done : sending the msg to ESP32 AND 
+# change the code to be less dependent on heavy manual control , currently its heavily manual (this will be a bit tricky)
+
 #Keys : WASD ; UHJK
 #Step Motor Order for coiling: (m1,m2,m3,m4) = (Front motor - W, Right Motor - D , Back Motor - S , Left Motor - A) its Clockwise starting from front motor
 #Step Motor Order for Uncoiling : (m1,m2,m3,m4) = (Front motor - U, Right Motor - K , Back Motor - H , Left Motor - J) its Clockwise starting from front motor
