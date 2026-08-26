@@ -15,7 +15,7 @@ from std_msgs.msg import String
 #INFO 
 
 #What is to be done : sending the msg to ESP32 AND 
-# change the code to be less dependent on heavy manual control , currently its heavily manual (this will be a bit tricky)
+# change the code to be less dependent on heavy manual control,such that we are not controlling the motors directly , instead the movement of head(this will be a bit tricky)
 
 #Keys : WASD ; UHJK
 #Step Motor Order for coiling: (m1,m2,m3,m4) = (Front motor - W, Right Motor - D , Back Motor - S , Left Motor - A) its Clockwise starting from front motor
