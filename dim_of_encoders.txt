@@ -1,0 +1,4 @@
+dim of pcb board : 22.75mm x 22.75mm x 3.15mm
+dim of magnet: d = 4.9mm x 2.15mm
+dist between AS5600 ic and magnet: 1mm to 1.5mm
+  
